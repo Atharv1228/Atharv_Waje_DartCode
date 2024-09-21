@@ -1,0 +1,16 @@
+void main (){
+
+	int unit = 180;
+	if (unit >= 0 && unit < 90 )
+		print("No charge");
+	else if (unit >= 90 && unit < 180){
+		print(6*unit);
+		
+		}
+	else if (unit >= 180 && unit <250){
+		print(10 * unit);
+		
+		}
+	else if (unit >= 250)
+		print(15 * unit);
+}
